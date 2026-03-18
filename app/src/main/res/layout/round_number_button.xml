@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@drawable/bg_round_orange"
+    android:fontFamily="@font/goldman_bold"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:layout_marginEnd="6dp"
+    tools:text="1"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textSize="@dimen/round_btn_text_size" />

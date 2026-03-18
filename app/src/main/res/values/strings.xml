@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name">QuizAppVersionOne</string>
+    <string name="title_start_text">QUIZ 2.0</string>
+    <string name="team_1">TEAM 1</string>
+    <string name="team_2">TEAM 2</string>
+    <string name="quizmaster">QUIZMASTER</string>
+    <string name="start_quiz_btn_text">START QUIZ</string>
+    <string name="ready">READY</string>
+    <string name="close_img_button">close</string>
+    <string name="hint_answer">ANSWER</string>
+    <string name="hint_answer_1">ANSWER 1</string>
+    <string name="hint_answer_2">ANSWER 2</string>
+    <string name="hint_answer_3">ANSWER 3</string>
+    <string name="hint_answer_4">ANSWER 4</string>
+    <string name="hint_answer_5">ANSWER 5</string>
+    <string name="hint_answer_6">ANSWER 6</string>
+    <string name="btn_text_lock_in_answers">LOCK IN ANSWER</string>
+    <string name="btn_text_show_answers">SHOW ANSWERS</string>
+    <string name="btn_text_reset">RESET</string>
+    <string name="traffic_light">traffic light</string>
+    <string name="answer">ANSWER</string>
+    <string name="selected_header">SELECTED:</string>
+    <string name="mine_5">MINE 5</string>
+    <string name="mine_4">MINE 4</string>
+    <string name="mine_3">MINE 3</string>
+    <string name="mine_2">MINE 2</string>
+    <string name="mine_1">MINE 1</string>
+    <string name="image">image</string>
+    <string name="selected">SELECTED:</string>
+    <string name="show_pictures">SHOW PICTURES</string>
+
+    <string name="house_pic">house pic</string>
+    <string name="hide_pictures">HIDE PICTURES</string>
+    <string name="add_point">add point</string>
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+    <string name="_11">11</string>
+    <string name="_12">12</string>
+    <string name="_13">13</string>
+    <string name="_14">14</string>
+    <string name="_15">15</string>
+    <string name="_16">16</string>
+    <string name="_17">17</string>
+    <string name="_18">18</string>
+    <string name="_19">19</string>
+    <string name="_20">20</string>
+
+    <string name="start_timer">START TIMER</string>
+    <string name="_40">40</string>
+
+    <!-- SCORE -->
+    <string name="exit_quiz_btn_text">EXIT QUIZ</string>
+    <string name="reset_score_btn_text">RESET SCORE</string>
+    <string name="score_header">SCORE</string>
+    <string name="_0">0</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="edit_score">edit score</string>
+    <string name="questions_mini_header">QUESTIONS:</string>
+    <string name="exit_quiz">exit quiz</string>
+
+    <!--QUESTIONS-->
+    <!-- ONE -->
+    <string name="question_one">VAD HETER DE TRE\nPROGRAMLEDARNA I\nBRITTISKA TOP GEAR?</string>
+    <string name="add_info_Q1">( FÖR- OCH EFTERNAMN )\n3 POÄNG</string>
+
+    <!-- TWO -->
+    <string name="add_info_q2">Det MI6-ägda godset, Bletchley Park, strax norr om London\nspelade en viktig roll under andra världskriget.</string>
+    <string name="question_2">VAD HETER FILMEN FRÅN 2014,\nMED BENEDICT CUMBERBATCH I HUVUDROLLEN,\nSOM UTSPELAR SIG DÄR?</string>
+    <!-- THREE -->
+    <string name="question_3">LISTA 5 STATIONER FRÅN\n\'\'THE LONDON UNDERGROUND\'\'</string>
+    <string name="add_info_Q3">ENDAST POÄNG FÖR UNIKA OCH\nEJ NÅGON AV MINA MINOR</string>
+    <string name="arsenal">ARSENAL</string>
+    <string name="london_bridge">LONDON BRIDGE</string>
+    <string name="queens_park">QUEEN\'S PARK</string>
+    <string name="west_ham">WEST HAM</string>
+    <string name="wimbledon">WIMBLEDON</string>
+
+    <!-- FOUR -->
+    <string name="question_4">VILKA HÖR IHOP?</string>
+    <string name="klicka_par">KLICKA PÅ DEM I DEN ORDNING NI VILL SKAPA ETT PAR</string>
+    <string name="par">PAR</string>
+    <string name="pair_1">PAIR 1</string>
+    <string name="pair_2">PAIR 2</string>
+    <string name="pair_3">PAIR 3</string>
+    <string name="pair">PAIR %1$d</string>
+    <string name="divider">-</string>
+
+    <string name="pig_in_blanket">PIG IN BLANKET</string>
+    <string name="toad_in_a_hole">TOAD IN A HOLE</string>
+    <string name="sausage_roll">SAUSAGE ROLL</string>
+
+    <string name="korv_i_bacon">KORV I BACON</string>
+    <string name="korv_i_en_smet">KORV I EN SMET</string>
+    <string name="korv_i_smördeg">KORV I SMÖRDEG</string>
+
+    <string name="sirloin">SIRLOIN STEAK</string>
+    <string name="tenderloin">TENDERLOIN STEAK</string>
+    <string name="rib_eye">RIB-EYE STEAK</string>
+
+    <string name="ryggbiff">RYGGBIFF</string>
+    <string name="entrecote">ENTRECÔTE</string>
+    <string name="oxfile">OXFILÈ</string>
+
+    <string name="cricket">CRICKET</string>
+    <string name="rugby">RUGBY</string>
+    <string name="hockey">LANDHOCKEY</string>
+
+    <string name="yorker">YORKER</string>
+    <string name="scrum">SCRUM</string>
+    <string name="the_d">THE D</string>
+
+    <string name="new_question_btn_text">NEW QUESTION</string>
+    <string name="reset_btn_text">RESET</string>
+
+    <!-- FIVE -->
+    <string name="pick_span">VÄLJ ETT SPANN I HELTAL</string>
+
+    <string name="question_5_1">\"AS THE CROW FLY\", HUR LÅNGT ÄR DET HIT\nFRÅN MIN ADRESS I LONDON?</string>
+    <string name="add_5_1">Svara i KM</string>
+    <string name="_1440_km">1440KM</string>
+
+    <string name="question_5_2">HUR MYCKET KOSTAR DETTA HUS I CHELSEA?</string>
+    <string name="add_5_2">(BILLIGASTE HUSET HOS DENNA MÄKLARE)\nSVARA I PUND (£1 = 12.18SEK)</string>
+    <string name="_2000000">£2.000.000</string>
+
+    <string name="question_5_3">HUR MÅNGA SÄSONGER FINNS DET AV MORDEN I MIDSUMER?</string>
+    <string name="_24_seasons">24 säsonger</string>
+
+    <string name="from">FROM</string>
+    <string name="your_low_number">YOUR LOW NUMBER</string>
+    <string name="to">TO</string>
+    <string name="your_high_number">YOUR HIGH NUMBER</string>
+    <string name="low">LOW</string>
+    <string name="high">HIGH</string>
+    <string name="span">SPAN</string>
+    <string name="correct_answer">CORRECT ANSWER</string>
+
+    <!-- SIX -->
+    <string name="inte_plats_q6_1">VILKEN AV DESSA ÄR INTE EN PLATS I STORBRITANNIEN?</string>
+    <string name="arsefacey">ARSEFACEY</string>
+    <string name="brown_willy">BROWN WILLY</string>
+    <string name="twatt">TWATT</string>
+    <string name="bitchfield">BITCHFIELD</string>
+
+    <string name="smeknam_skyskrapa_q6_2">VILKET AV DESSA ÄR INTE ETT SMEKNAMN PÅ EN SKYSKRAPA I LONDON?</string>
+    <string name="the_cheese_grater">THE CHEESE GRATER</string>
+    <string name="the_walkie_talkie">THE WALKIE TALKIE</string>
+    <string name="the_gherkin">THE GHERKIN</string>
+    <string name="the_teapot">THE TEAPOT</string>
+
+    <string name="film_q6_3">VILKEN AV DESSA FILMER HADE INTE PREMIÄR ÅR 2008?</string>
+    <string name="slumdog">SLUMDOG MILLIONAIRE, DANNY. BOYLE</string>
+    <string name="dark_knight">THE DARK KNIGHT, CHRISTOPHER NOLAN </string>
+    <string name="sherlock">SHERLOCK HOLMES, GUY RITCHIE</string>
+    <string name="kingdom_heaven">KINGDOM OF HEAVEN, RIDLEY SCOTT</string>
+
+    <!-- SEVEN -->
+    <string name="question_7_1">VEM SPRINGER ÖVER THEMSEN HÄR?</string>
+    <string name="ethan_hunt">ETHAN HUNT</string>
+    <string name="james_bond">JAMES BOND</string>
+
+    <string name="question_7_2">VILKET LANDSNUMMER HAR STORBRITANNIEN?</string>
+    <string name="_plus1">+1</string>
+    <string name="_plus44">+44</string>
+
+    <string name="question_7_3">STORBRITANNIEN ÄR EN AV VÄRLDENS TOP 10 STÖRSTA ÖAR?</string>
+    <string name="_sant">SANT</string>
+    <string name="_falskt">FALSKT</string>
+
+    <!-- EIGHT -->
+    <string name="question_8">FRÅN VILKA TRE FILMER KOMMER DESSA MELODIER?</string>
+
+    <!-- NINE -->
+    <string name="question_9">NÄMN TVÅ BRITTER SOM BLIVIT ADLADE</string>
+    <string name="add_info_q_9">( FÖR- OCH EFTERNAMN )\n\n1 POÄNG PER HERR\n2 POÄNG PER KVINNA</string>
+
+    <!-- TEN -->
+    <string name="question_10">OM MAN KASTAT DE SEX FÖRSTA PILARNA PÅ T20 I EN 501-DARTOMGÅNG\n\nGE MIG EN GODKÄND \'OUT\'</string>
+    <string name="add_info_q_10">\'T[XX]\' FÖR TRIPPEL\n\'D[XX]\' FÖR DUBBEL\n\n( EXEMPEL: T10 - D10 - D10 )</string>
+    <string name="all_outs">T20 - T19 - D12\nT20 - T17 - D15\nT20 - T15 - D18\n\nT19 - T18 - D15\nT19 - T16 - D18\n\nT18 - T17 - D18\n\nT17 - Bull - D20\nT17 - D20 - Bull</string>
+    <string name="show_possible_outs">show possible outs</string>
+
+    <!-- ELEVEN -->
+    <string name="question_11_1">NÄMN DE 10 SENASTE BRITTISKA PREMIÄRMINISTRARNA</string>
+
+    <string name="margaret_thatcher">MARGARET THATCHER</string>
+    <string name="john_major">JOHN MAJOR</string>
+    <string name="tony_blair">TONY BLAIR</string>
+    <string name="gordon_brown">GORDON BROWN</string>
+    <string name="david_cameron">DAVID CAMERON</string>
+    <string name="theresa_may">THERESA MAY</string>
+    <string name="boris_johnson">BORIS JOHNSON</string>
+    <string name="liz_truss">LIZ TRUSS</string>
+    <string name="rishi_sunak">RISHI SUNAK</string>
+    <string name="keir_starmer">KEIR STARMER</string>
+
+    <string name="question_11_2">NÄMN DE 10 STÖRSTA BILMÄRKENA FRÅN STORBRITANNIEN</string>
+
+    <string name="aston_martin">ASTON MARTIN</string>
+    <string name="bentley">BENTLEY</string>
+    <string name="jaguar">JAGUAR</string>
+    <string name="land_rover">LAND ROVER</string>
+    <string name="lotus">LOTUS</string>
+    <string name="mclaren">McLAREN</string>
+    <string name="mg">MG</string>
+    <string name="mini">MINI COOPER</string>
+    <string name="rolls_royce">ROLLS‑ROYCE</string>
+    <string name="vauxhall">VAUXHALL</string>
+
+    <string name="answer_activity_text_q_eleven">BETTA HUR MÅNGA NI KAN NÄMNA PÅ ÄMNET\n\nHÖJ TILLS NÅGOT LAG GER SIG\n\nLEDANDE LAG BÖRJAR BETTA</string>
+
+    <!-- ELEVEN -->
+    <string name="question_12">MELLAN VILKA HUVUDSTÄDER GÅR DESSA FLYG?</string>
+    <string name="add_info_q_12">8 POÄNG PÅ SPEL</string>
+
+    <string name="plane_desc">plane</string>
+    <string name="hide_text_hint">*************</string>
+    <string name="boarding_pass_title">BOARDING PASS</string>
+    <string name="barcode_desc">barcode</string>
+    <string name="hidden_answer">**********</string>
+
+
+    <string name="belfast_airport">BFS</string>
+    <string name="belfast">BELFAST</string>
+
+    <string name="bangkok_airport">BKK</string>
+    <string name="bangkok">BANGKOK</string>
+
+    <string name="brasilia_airport">BSB</string>
+    <string name="brasilia">BRASILIA</string>
+
+    <string name="canberra_airport">CBR</string>
+    <string name="canberra">CANBERRA</string>
+
+    <string name="cardiff_airport">CWL</string>
+    <string name="cardiff">CARDIFF</string>
+
+    <string name="edinburgh_airport">EDI</string>
+    <string name="edinburgh">EDINBURGH</string>
+
+    <string name="london_airport">LHR</string>
+    <string name="london">LONDON</string>
+
+    <string name="nairobi_airport">NBO</string>
+    <string name="nairobi">NAIROBI</string>
+    <string name="btn_text_next">NEXT</string>
+
+</resources>

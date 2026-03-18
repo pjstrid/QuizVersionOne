@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_flight_ticket"
+    app:cardCornerRadius="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tv_border_flight_ticket"
+        android:fontFamily="@font/goldman_bold"
+        android:paddingHorizontal="8dp"
+        android:text="@string/boarding_pass_title"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/barcode_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/barcode_desc"
+        android:rotation="90"
+        android:src="@drawable/outline_barcode"
+        app:layout_constraintBottom_toTopOf="@id/barcode_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/barcode_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="18dp"
+        android:contentDescription="@string/barcode_desc"
+        android:rotation="90"
+        android:src="@drawable/outline_barcode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/barcode_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/barcode_2"
+        app:layout_constraintTop_toTopOf="@id/barcode_1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_airport_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/goldman_bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:text="BFS" />
+
+            <EditText
+                android:id="@+id/et_answer_from"
+                android:layout_width="132dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:fontFamily="@font/goldman_bold"
+                android:hint="@string/hide_text_hint"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_gray"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/plane_desc"
+            android:src="@drawable/outline_airplane"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_airport_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/goldman_bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:text="BKK" />
+
+            <EditText
+                android:id="@+id/et_answer_to"
+                android:layout_width="132dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:fontFamily="@font/goldman_bold"
+                android:hint="@string/hide_text_hint"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_gray"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

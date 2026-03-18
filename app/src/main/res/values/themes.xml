@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizAppVersionOne" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+
+    <style name="Theme.QuizAppVersionOne" parent="Base.Theme.QuizAppVersionOne" />
+</resources>

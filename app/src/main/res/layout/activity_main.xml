@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_full_screen"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/user_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/title_start_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size_64sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/all_btn_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_title">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_container_team1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="64dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btn_team1"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/bg_tv_orange"
+                android:fontFamily="@font/goldman_bold"
+                android:gravity="center"
+                android:text="@string/team_1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:id="@+id/ready_team_1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_marginHorizontal="64dp"-->
+            <!--                android:layout_marginTop="6dp"-->
+            <!--                android:backgroundTint="@color/dark_red"-->
+            <!--                app:cardCornerRadius="10dp"-->
+            <!--                tools:ignore="ButtonStyle">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginHorizontal="16dp"-->
+            <!--                    android:fontFamily="@font/goldman_bold"-->
+            <!--                    android:text="@string/ready"-->
+            <!--                    android:textAlignment="center"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="24sp" />-->
+            <!--            </androidx.cardview.widget.CardView>-->
+
+            <ImageView
+                android:id="@+id/ready_team_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_round_red"
+                android:contentDescription="@string/traffic_light"
+                android:padding="10dp"
+                android:src="@drawable/traffic_light"
+                app:layout_constraintEnd_toEndOf="@+id/btn_team1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_team1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_container_team2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="64dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/btn_team2"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/bg_tv_orange"
+                android:fontFamily="@font/goldman_bold"
+                android:gravity="center"
+                android:text="@string/team_2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ready_team_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_round_red"
+                android:contentDescription="@string/traffic_light"
+                android:padding="10dp"
+                android:src="@drawable/traffic_light"
+                app:layout_constraintEnd_toEndOf="@+id/btn_team2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_team2" />
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:id="@+id/ready_team_2"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_marginHorizontal="64dp"-->
+            <!--                android:layout_marginTop="6dp"-->
+            <!--                android:backgroundTint="@color/dark_red"-->
+            <!--                app:cardCornerRadius="10dp"-->
+            <!--                tools:ignore="ButtonStyle">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginHorizontal="16dp"-->
+            <!--                    android:fontFamily="@font/goldman_bold"-->
+            <!--                    android:text="@string/ready"-->
+            <!--                    android:textAlignment="center"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="24sp" />-->
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/QM_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/all_btn_cont">
+
+        <TextView
+            android:id="@+id/btn_quizmaster"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/bg_tv_orange"
+            android:fontFamily="@font/goldman_bold"
+            android:gravity="center"
+            android:text="@string/quizmaster"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ready_QM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_round_red"
+            android:contentDescription="@string/traffic_light"
+            android:padding="10dp"
+            android:src="@drawable/traffic_light"
+            app:layout_constraintEnd_toEndOf="@+id/btn_quizmaster"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_quizmaster" />
+
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:id="@+id/ready_QM"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginHorizontal="64dp"-->
+        <!--            android:layout_marginTop="6dp"-->
+        <!--            android:backgroundTint="@color/dark_red"-->
+        <!--            app:cardCornerRadius="10dp"-->
+        <!--            tools:ignore="ButtonStyle">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginHorizontal="16dp"-->
+        <!--                android:fontFamily="@font/goldman_bold"-->
+        <!--                android:text="@string/ready"-->
+        <!--                android:textAlignment="center"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="24sp" />-->
+        <!--        </androidx.cardview.widget.CardView>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/bg_tv_red"
+        android:clickable="false"
+        android:fontFamily="@font/goldman_bold"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="@string/start_quiz_btn_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/reset_btn_text_20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/QM_cont"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/QM_cont" />
+
+    <TextView
+        android:id="@+id/btn_reset_ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="@drawable/bg_tv_orange"
+        android:fontFamily="@font/goldman_bold"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:text="@string/btn_text_reset"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/reset_btn_text_20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

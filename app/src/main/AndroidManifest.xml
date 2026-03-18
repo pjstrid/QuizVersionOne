@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/question_mark_black"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/question_mark_black"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizAppVersionOne">
+        <activity
+            android:name=".QuestionTwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionTwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionElevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionTenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionTenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionNineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionNineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionEightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionEightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionSevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionSevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionSixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionSixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerQuestionOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

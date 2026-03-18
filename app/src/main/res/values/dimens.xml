@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">350dp</dimen>
+    <dimen name="title_size_64sp">64sp</dimen>
+    <dimen name="score_size_128sp">128sp</dimen>
+    <dimen name="button_text_size_42sp">42sp</dimen>
+    <dimen name="score_width_220dp">220dp</dimen>
+    <dimen name="reset_btn_text_20sp">20sp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="round_btn_text_size">32sp</dimen>
+</resources>

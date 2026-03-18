@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_full_screen"
+    tools:context=".ScoreActivity">
+
+    <ImageButton
+        android:id="@+id/btn_exit_quiz"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/bg_round_red"
+        android:contentDescription="@string/exit_quiz"
+        android:src="@drawable/outline_door_open_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_winner_of_quiz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/bg_black"
+        android:contentDescription="@string/exit_quiz"
+        android:src="@drawable/winners_cup"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/text_exit_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/exit_quiz_btn_text"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_exit_quiz"
+        app:layout_constraintStart_toStartOf="@id/btn_exit_quiz"
+        app:layout_constraintTop_toBottomOf="@id/btn_exit_quiz" />
+
+    <TextView
+        android:id="@+id/btn_reset_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="@drawable/bg_tv_orange"
+        android:fontFamily="@font/goldman_bold"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="@string/reset_score_btn_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/reset_btn_text_20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/current_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/goldman_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="USERNAME" />
+
+    <TextView
+        android:id="@+id/score_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/score_header"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size_64sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/current_user" />
+
+    <TextView
+        android:id="@+id/team_1_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/team_1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size_64sp"
+        app:layout_constraintBottom_toTopOf="@id/score_team1"
+        app:layout_constraintEnd_toEndOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/score_team1"
+        android:layout_width="@dimen/score_width_220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/score_size_128sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_team1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_round_green"
+        android:contentDescription="@string/add_point"
+        android:fontFamily="@font/goldman_bold"
+        android:src="@drawable/outline_add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_42sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/score_team1"
+        app:layout_constraintTop_toTopOf="@id/score_team1" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_team1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_round_red"
+        android:contentDescription="@string/add_point"
+        android:fontFamily="@font/goldman_bold"
+        android:src="@drawable/outline_minus"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_42sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/score_team1"
+        app:layout_constraintEnd_toStartOf="@id/score_team1" />
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/minus_sign"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size_64sp"
+        app:layout_constraintBottom_toBottomOf="@+id/score_team1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_1_header" />
+
+    <TextView
+        android:id="@+id/team_2_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/team_2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size_64sp"
+        app:layout_constraintBottom_toTopOf="@id/score_team2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/divider" />
+
+    <TextView
+        android:id="@+id/score_team2"
+        android:layout_width="@dimen/score_width_220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/score_size_128sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/divider"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_team2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_round_green"
+        android:contentDescription="@string/add_point"
+        android:fontFamily="@font/goldman_bold"
+        android:src="@drawable/outline_add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_42sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/score_team2"
+        app:layout_constraintTop_toBottomOf="@+id/team_2_header" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_team2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_round_red"
+        android:contentDescription="@string/add_point"
+        android:fontFamily="@font/goldman_bold"
+        android:src="@drawable/outline_minus"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_42sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/score_team2"
+        app:layout_constraintStart_toEndOf="@+id/score_team2" />
+
+    <ImageButton
+        android:id="@+id/edit_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="48dp"
+        android:background="@color/black"
+        android:contentDescription="@string/edit_score"
+        android:src="@drawable/question_mark_white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/goldman_bold"
+        android:text="@string/questions_mini_header"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/go_to_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/go_to_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/q_nr1"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr2"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr3"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr4"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr5"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr6"
+                layout="@layout/round_number_button" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/q_nr7"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr8"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr9"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr10"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr11"
+                layout="@layout/round_number_button" />
+
+            <include
+                android:id="@+id/q_nr12"
+                layout="@layout/round_number_button" />
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr13"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr14"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr15"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr16"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr17"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr18"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr19"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+            <!--            <include-->
+            <!--                android:id="@+id/q_nr20"-->
+            <!--                layout="@layout/round_number_button" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/go_to_container"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:visibility="invisible"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/score_team1"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/score_team1">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/user_title"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:fontFamily="@font/goldman_bold"-->
+    <!--            android:text="GO TO:"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="24sp" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center_vertical"-->
+    <!--            android:foregroundGravity="center_vertical"-->
+    <!--            android:gravity="center_vertical">-->
+
+
+    <!--            <com.google.android.material.textfield.TextInputLayout-->
+    <!--                android:id="@+id/edit_text_question"-->
+    <!--                style="?attr/textInputFilledStyle"-->
+    <!--                android:layout_width="220dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:hint="Question"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textColorHint="@color/hint_text_color"-->
+    <!--                app:boxStrokeColor="@color/orange"-->
+    <!--                app:cursorColor="@color/black"-->
+    <!--                app:errorTextColor="@color/white"-->
+    <!--                app:hintTextColor="@color/black">-->
+
+    <!--                <com.google.android.material.textfield.TextInputEditText-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:backgroundTint="@color/white"-->
+    <!--                    android:fontFamily="@font/goldman_bold"-->
+    <!--                    android:inputType="number"-->
+    <!--                    android:textAlignment="center"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="35sp" />-->
+
+    <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_go_to_question"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="24dp"-->
+    <!--                android:backgroundTint="@color/orange"-->
+    <!--                android:fontFamily="@font/goldman_bold"-->
+    <!--                android:text="GO"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="30sp" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_next_question"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="32dp"-->
+    <!--        android:backgroundTint="@color/green"-->
+    <!--        android:fontFamily="@font/goldman_bold"-->
+    <!--        android:text="NEXT QUESTION"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="24sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
