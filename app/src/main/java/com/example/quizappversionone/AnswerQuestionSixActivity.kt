@@ -107,7 +107,7 @@ class AnswerQuestionSixActivity : AppCompatActivity() {
     }
 
     private fun loadQ2(orange: Int) {
-        binding.tvQuestion.text = getString(R.string.smeknam_skyskrapa_q6_2)
+        binding.tvQuestion.text = getString(R.string.smeknamn_skyskrapa_q6_2)
 
         binding.option1.text = getString(R.string.the_cheese_grater)
         binding.option2.text = getString(R.string.the_walkie_talkie)

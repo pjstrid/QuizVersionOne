@@ -24,7 +24,6 @@ class QuestionSixActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this)[ViewModel::class.java]
 
 
-
         binding.btnClose.setOnClickListener {
             finish()
         }
@@ -92,9 +91,7 @@ class QuestionSixActivity : AppCompatActivity() {
         if (team1?.answered == true &&
             team2?.answered == true
         ) {
-
             binding.btnShow.visibility = View.VISIBLE
-
         }
     }
 
@@ -172,6 +169,8 @@ class QuestionSixActivity : AppCompatActivity() {
         binding.option3.setBackgroundResource(orange)
         binding.option4.setBackgroundResource(orange)
 
+        binding.btnShow.visibility = View.INVISIBLE
+
         when (qCount) {
             1 -> loadQ2()
             2 -> loadQ3()
@@ -180,7 +179,7 @@ class QuestionSixActivity : AppCompatActivity() {
     }
 
     private fun loadQ2() {
-        binding.tvQuestion.text = getString(R.string.smeknam_skyskrapa_q6_2)
+        binding.tvQuestion.text = getString(R.string.smeknamn_skyskrapa_q6_2)
 
         binding.option1.text = getString(R.string.the_cheese_grater)
         binding.option2.text = getString(R.string.the_walkie_talkie)

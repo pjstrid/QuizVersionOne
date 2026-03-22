@@ -197,10 +197,30 @@ class ScoreActivity : AppCompatActivity() {
             }
         }
 
+        var winnerClickCount = 0
         binding.btnWinnerOfQuiz.setOnClickListener {
+
+            winnerClickCount++
             
+            checkWinner()
+
+            if (winnerClickCount % 2 == 1) {
+                binding.winnerBox.visibility = View.VISIBLE
+            } else {
+                binding.winnerBox.visibility = View.INVISIBLE
+
+            }
         }
 
+    }
+
+    private fun checkWinner() {
+
+        if (scoreTeam1 > scoreTeam2) {
+            binding.winnerBox.text = getString(R.string.the_winner_is_team1)
+        } else {
+            binding.winnerBox.text = getString(R.string.the_winner_is_team2)
+        }
     }
 
     private fun setNumbersInRoundButtons() {

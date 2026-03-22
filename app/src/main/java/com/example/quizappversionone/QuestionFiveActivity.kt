@@ -59,7 +59,6 @@ class QuestionFiveActivity : AppCompatActivity() {
                 compareAnswer(correctCount)
                 showCorrectAnswer(correctCount)
             }
-
         }
 
         var qCount = 1
@@ -89,7 +88,7 @@ class QuestionFiveActivity : AppCompatActivity() {
         when (count) {
             1 -> correctAnswer = 1440
             2 -> correctAnswer = 2000000
-            3 -> correctAnswer = 24
+            3 -> correctAnswer = 1829
         }
 
 
@@ -120,6 +119,17 @@ class QuestionFiveActivity : AppCompatActivity() {
 
                 viewModel.addPoint(viewModel.team2Email)
 
+            } else {
+                binding.answer1Team1.setBackgroundResource(green)
+                binding.answer2Team1.setBackgroundResource(green)
+                binding.answer3Team1.setBackgroundResource(green)
+
+                binding.answer1Team2.setBackgroundResource(green)
+                binding.answer2Team2.setBackgroundResource(green)
+                binding.answer3Team2.setBackgroundResource(green)
+
+                viewModel.addPoint(viewModel.team1Email)
+                viewModel.addPoint(viewModel.team2Email)
             }
 
         } else if (correctAnswer in team1Low..team1High) {
@@ -186,6 +196,9 @@ class QuestionFiveActivity : AppCompatActivity() {
         val question2add = getString(R.string.add_5_2)
 
         val question3 = getString(R.string.question_5_3)
+        val question3add = getString(R.string.add_5_3)
+
+        binding.btnShow.visibility = View.INVISIBLE
 
         when (count) {
             1 -> {
@@ -200,7 +213,7 @@ class QuestionFiveActivity : AppCompatActivity() {
 
             3 -> {
                 binding.tvQuestion.text = question3
-                binding.tvAddInfo.text = ""
+                binding.tvAddInfo.text = question3add
             }
         }
     }
@@ -210,7 +223,7 @@ class QuestionFiveActivity : AppCompatActivity() {
         when (count) {
             1 -> binding.correctAnswer.text = getString(R.string._1440_km)
             2 -> binding.correctAnswer.text = getString(R.string._2000000)
-            3 -> binding.correctAnswer.text = getString(R.string._24_seasons)
+            3 -> binding.correctAnswer.text = getString(R.string._1829cm)
         }
     }
 
@@ -241,9 +254,7 @@ class QuestionFiveActivity : AppCompatActivity() {
         if (team1?.answered == true &&
             team2?.answered == true
         ) {
-
             binding.btnShow.visibility = View.VISIBLE
-
         }
     }
 
@@ -255,7 +266,6 @@ class QuestionFiveActivity : AppCompatActivity() {
         val team2High: Int = team2?.high!!
         val team2Low: Int = team2?.low!!
         val team2Span = team2High.minus(team2Low)
-
 
         binding.answer1Team1.text = team1Low.toString()
         binding.answer2Team1.text = team1High.toString()

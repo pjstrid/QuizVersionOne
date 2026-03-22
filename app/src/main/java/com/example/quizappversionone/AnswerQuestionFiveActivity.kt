@@ -171,6 +171,7 @@ class AnswerQuestionFiveActivity : AppCompatActivity() {
         val question2add = getString(R.string.add_5_2)
 
         val question3 = getString(R.string.question_5_3)
+        val question3add = getString(R.string.add_5_3)
 
         when (count) {
             1 -> {
@@ -185,6 +186,7 @@ class AnswerQuestionFiveActivity : AppCompatActivity() {
 
             3 -> {
                 binding.tvQuestion.text = question3
+                binding.tvAddInfo.text = question3add
                 binding.showHidePic.visibility = View.INVISIBLE
             }
 

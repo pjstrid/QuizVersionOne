@@ -75,8 +75,8 @@ class AnswerQuestionThreeActivity : AppCompatActivity() {
         val answerOne = binding.etAnswer1.editText?.text.toString().uppercase(getDefault())
         val answerTwo = binding.etAnswer2.editText?.text.toString().uppercase(getDefault())
         val answerThree = binding.etAnswer3.editText?.text.toString().uppercase(getDefault())
-        val answerFour = binding.etAnswer2.editText?.text.toString().uppercase(getDefault())
-        val answerFive = binding.etAnswer3.editText?.text.toString().uppercase(getDefault())
+        val answerFour = binding.etAnswer4.editText?.text.toString().uppercase(getDefault())
+        val answerFive = binding.etAnswer5.editText?.text.toString().uppercase(getDefault())
 
         viewModel.updateAnswersQ3(
             currentUser,

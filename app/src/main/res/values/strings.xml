@@ -133,8 +133,9 @@
     <string name="add_5_2">(BILLIGASTE HUSET HOS DENNA MÄKLARE)\nSVARA I PUND (£1 = 12.18SEK)</string>
     <string name="_2000000">£2.000.000</string>
 
-    <string name="question_5_3">HUR MÅNGA SÄSONGER FINNS DET AV MORDEN I MIDSUMER?</string>
-    <string name="_24_seasons">24 säsonger</string>
+    <string name="question_5_3">HUR LÅNGT ÄR VÄRLDSREKORDET I TRESTEG?</string>
+    <string name="add_5_3">Sattes på VM i Göteborg 1995, av den ikoniske Jonathan Edwards</string>
+    <string name="_1829cm">18,29m (1829cm)</string>
 
     <string name="from">FROM</string>
     <string name="your_low_number">YOUR LOW NUMBER</string>
@@ -152,14 +153,14 @@
     <string name="twatt">TWATT</string>
     <string name="bitchfield">BITCHFIELD</string>
 
-    <string name="smeknam_skyskrapa_q6_2">VILKET AV DESSA ÄR INTE ETT SMEKNAMN PÅ EN SKYSKRAPA I LONDON?</string>
+    <string name="smeknamn_skyskrapa_q6_2">VILKET AV DESSA ÄR INTE ETT SMEKNAMN PÅ EN SKYSKRAPA I LONDON?</string>
     <string name="the_cheese_grater">THE CHEESE GRATER</string>
     <string name="the_walkie_talkie">THE WALKIE TALKIE</string>
     <string name="the_gherkin">THE GHERKIN</string>
     <string name="the_teapot">THE TEAPOT</string>
 
     <string name="film_q6_3">VILKEN AV DESSA FILMER HADE INTE PREMIÄR ÅR 2008?</string>
-    <string name="slumdog">SLUMDOG MILLIONAIRE, DANNY. BOYLE</string>
+    <string name="slumdog">SLUMDOG MILLIONAIRE, DANNY BOYLE</string>
     <string name="dark_knight">THE DARK KNIGHT, CHRISTOPHER NOLAN </string>
     <string name="sherlock">SHERLOCK HOLMES, GUY RITCHIE</string>
     <string name="kingdom_heaven">KINGDOM OF HEAVEN, RIDLEY SCOTT</string>
@@ -254,5 +255,8 @@
     <string name="nairobi_airport">NBO</string>
     <string name="nairobi">NAIROBI</string>
     <string name="btn_text_next">NEXT</string>
+    <string name="the_winner_is_default">THE WINNER IS:\n</string>
+    <string name="the_winner_is_team1">THE WINNER IS:\n\nTEAM 1</string>
+    <string name="the_winner_is_team2">THE WINNER IS:\n\nTEAM 2</string>
 
 </resources>
