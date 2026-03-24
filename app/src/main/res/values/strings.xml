@@ -183,7 +183,7 @@
 
     <!-- NINE -->
     <string name="question_9">NÄMN TVÅ BRITTER SOM BLIVIT ADLADE</string>
-    <string name="add_info_q_9">( FÖR- OCH EFTERNAMN )\n\n1 POÄNG PER HERR\n2 POÄNG PER KVINNA</string>
+    <string name="add_info_q_9">( FÖR- OCH EFTERNAMN )\n\n1 POÄNG PER HERRE\n2 POÄNG PER KVINNA</string>
 
     <!-- TEN -->
     <string name="question_10">OM MAN KASTAT DE SEX FÖRSTA PILARNA PÅ T20 I EN 501-DARTOMGÅNG\n\nGE MIG EN GODKÄND \'OUT\'</string>

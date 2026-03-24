@@ -98,12 +98,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o1Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option1.text = getString(R.string.margaret_thatcher)
                     binding.option1.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option1.text = getString(R.string.aston_martin)
                     binding.option1.setBackgroundResource(green)
                 }
@@ -115,12 +115,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o2Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option2.text = getString(R.string.john_major)
                     binding.option2.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option2.text = getString(R.string.bentley)
                     binding.option2.setBackgroundResource(green)
                 }
@@ -132,12 +132,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o3Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option3.text = getString(R.string.tony_blair)
                     binding.option3.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option3.text = getString(R.string.jaguar)
                     binding.option3.setBackgroundResource(green)
                 }
@@ -149,12 +149,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o4Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option4.text = getString(R.string.gordon_brown)
                     binding.option4.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option4.text = getString(R.string.land_rover)
                     binding.option4.setBackgroundResource(green)
                 }
@@ -166,12 +166,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o5Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option5.text = getString(R.string.david_cameron)
                     binding.option5.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option5.text = getString(R.string.lotus)
                     binding.option5.setBackgroundResource(green)
                 }
@@ -183,12 +183,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o6Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option6.text = getString(R.string.theresa_may)
                     binding.option6.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option6.text = getString(R.string.mclaren)
                     binding.option6.setBackgroundResource(green)
                 }
@@ -200,12 +200,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o7Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option7.text = getString(R.string.boris_johnson)
                     binding.option7.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option7.text = getString(R.string.mg)
                     binding.option7.setBackgroundResource(green)
                 }
@@ -217,12 +217,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o8Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option8.text = getString(R.string.liz_truss)
                     binding.option8.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option8.text = getString(R.string.mini)
                     binding.option8.setBackgroundResource(green)
                 }
@@ -234,12 +234,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o9Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option9.text = getString(R.string.rishi_sunak)
                     binding.option9.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option9.text = getString(R.string.rolls_royce)
                     binding.option9.setBackgroundResource(green)
                 }
@@ -251,12 +251,12 @@ class QuestionElevenActivity : AppCompatActivity() {
             o10Clicked = true
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option10.text = getString(R.string.keir_starmer)
                     binding.option10.setBackgroundResource(green)
                 }
 
-                1 -> {
+                2 -> {
                     binding.option10.text = getString(R.string.vauxhall)
                     binding.option10.setBackgroundResource(green)
                 }
@@ -268,7 +268,7 @@ class QuestionElevenActivity : AppCompatActivity() {
             binding.btnReset.visibility = View.VISIBLE
 
             when (qCount) {
-                2 -> {
+                1 -> {
                     binding.option1.text = getString(R.string.margaret_thatcher)
                     binding.option2.text = getString(R.string.john_major)
                     binding.option3.text = getString(R.string.tony_blair)
@@ -282,7 +282,7 @@ class QuestionElevenActivity : AppCompatActivity() {
 
                 }
 
-                1 -> {
+                2 -> {
                     binding.option1.text = getString(R.string.aston_martin)
                     binding.option2.text = getString(R.string.bentley)
                     binding.option3.text = getString(R.string.jaguar)
@@ -388,7 +388,7 @@ class QuestionElevenActivity : AppCompatActivity() {
 
         when (count) {
             2 -> {
-                binding.tvQuestion.text = getString(R.string.question_11_1)
+                binding.tvQuestion.text = getString(R.string.question_11_2)
             }
 
         }
