@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">QuizAppVersionOne</string>
-    <string name="title_start_text">QUIZ 2.0</string>
+    <string name="title_start_text">FJÄLLENQUIZ 2.0</string>
     <string name="team_1">TEAM 1</string>
     <string name="team_2">TEAM 2</string>
     <string name="quizmaster">QUIZMASTER</string>
@@ -130,7 +130,7 @@
     <string name="_1440_km">1440KM</string>
 
     <string name="question_5_2">HUR MYCKET KOSTAR DETTA HUS I CHELSEA?</string>
-    <string name="add_5_2">(BILLIGASTE HUSET HOS DENNA MÄKLARE)\nSVARA I PUND (£1 = 12.18SEK)</string>
+    <string name="add_5_2">(BILLIGASTE HUSET HOS DENNA MÄKLARE)\nSVARA I PUND (£1 = 12.47SEK)</string>
     <string name="_2000000">£2.000.000</string>
 
     <string name="question_5_3">HUR LÅNGT ÄR VÄRLDSREKORDET I TRESTEG?</string>
@@ -255,8 +255,8 @@
     <string name="nairobi_airport">NBO</string>
     <string name="nairobi">NAIROBI</string>
     <string name="btn_text_next">NEXT</string>
-    <string name="the_winner_is_default">THE WINNER IS:\n</string>
-    <string name="the_winner_is_team1">THE WINNER IS:\n\nTEAM 1</string>
-    <string name="the_winner_is_team2">THE WINNER IS:\n\nTEAM 2</string>
+    <string name="the_winner_is_default">THE WINNER OF\nFJÄLLENQUIZ 2.0\nIS:\n</string>
+    <string name="the_winner_is_team1">THE WINNER OF\nFJÄLLENQUIZ 2.0\nIS:\n\nTEAM 1</string>
+    <string name="the_winner_is_team2">THE WINNER OF\nFJÄLLENQUIZ 2.0\nIS:\n\nTEAM 2</string>
 
 </resources>

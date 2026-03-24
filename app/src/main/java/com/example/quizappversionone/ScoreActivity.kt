@@ -201,7 +201,7 @@ class ScoreActivity : AppCompatActivity() {
         binding.btnWinnerOfQuiz.setOnClickListener {
 
             winnerClickCount++
-            
+
             checkWinner()
 
             if (winnerClickCount % 2 == 1) {
