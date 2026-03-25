@@ -131,7 +131,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/white"
                         android:fontFamily="@font/goldman_bold"
-                        android:inputType="text"
+                        android:inputType="number"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="35sp" />
@@ -177,7 +177,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/white"
                         android:fontFamily="@font/goldman_bold"
-                        android:inputType="text"
+                        android:inputType="number"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="35sp" />
