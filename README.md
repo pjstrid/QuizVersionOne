@@ -1,4 +1,4 @@
-**Project built as a fun activity on a trip with my friends.**
+**Project built as a fun activity for a trip with my friends.**
 
 Firebase is used for storing data and the syncronization between the active devices.
 
